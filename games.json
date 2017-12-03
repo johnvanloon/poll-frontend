@@ -1,0 +1,16 @@
+{
+    "games" : [
+        {
+            "home": "teamA",
+            "away": "teamB",
+            "scorehome": 2,
+            "scoreaway": 3
+        },
+        {
+            "home": "teamC",
+            "away": "teamD",
+            "scorehome": 1,
+            "scoreaway": 0
+        }
+    ]
+}
