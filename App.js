@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import { Button } from 'react-native';
+import { Button, FlatList } from 'react-native';
 var gamesJson = require('./games.json');
 
 
@@ -23,10 +23,10 @@ export default class App extends React.Component {
         <Text>Shake your phone to open the developer menu.</Text>
         <Button title="Click here" onPress={this.update}/>
         <Text>Counter: {this.state.counter} </Text>
-        <FlatList
+        {/* <FlatList
           data={this.state.games}
           renderItem={({item}) => <Text style={styles.item}>{item.home}</Text>}
-        />
+        /> */}
       </View>
     );
   }
